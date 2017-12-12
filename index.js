@@ -14,11 +14,10 @@ function sayHiToGrandma(string) {
   if (var uppercase = string
   uppercase.toUpperCase() === uppercase // true) {
   return "YES INDEED!"
-} else {
-var lowercase = 'hello!'
- 
-lowercase.toLowerCase() === lowercase // true
-  return "I can't hear you!"
-  return "YES INDEED!"
+} else if (var lowercase = string 
+  lowercase.toLowerCase() === lowercase // true) {
+    return "I can't hear you!"
+  }
+
   return "I love you, too."
 }
